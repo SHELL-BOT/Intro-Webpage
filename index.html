@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="styles.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Uday's Website</title>
+        <title>Portfolio Website</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -41,7 +41,6 @@
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Uday</span><br>Programmer guy</h1>
 
                     <a href="https://github.com/SHELL-BOT/SHELL-BOT" class="button">GitHub</a>
-                    <a href="https://youtu.be/xvFZjo5PgG0" class="button">YT channel</a>
                 </div>      
             </section>
 
@@ -51,12 +50,12 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="about.jpg" alt="">
                     </div>
                     
                     <div>
                         <h2 class="about__subtitle">I'am Uday</h2>
-                        <p class="about__text">Hello, I am student learning programming and I create this webpage to test my HTML skills, anyway follow me on GitHub.</p>           
+                        <p class="about__text">Hello, I am student learning and I create this webpage to test my HTML skills, by the way follow me on GitHub.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -120,7 +119,7 @@
                     </div>
                     
                     <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
@@ -128,13 +127,13 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
-                <p align="center" class="skills__text">let me know who visited my website and send your thoughts about this website.</h3>
+                <p class="contact__text">Lemme know who visited my website <br>and send your thoughts about this webpage</p>
                 <div class="contact__container bd-grid">
-                    <form name="contact" class="contact__form" method="POST" data-netlify="true" onSubmit="submit">
-                        <input type="text" placeholder="Name" class="contact__input" name="name">
-                        <input type="mail" placeholder="Email" class="contact__input" name="email">
-                        <input type="text" name="massage" class="contact__input" placeholder="Massage" />
-                        <button type="Submit" class="contact__button button">Submit</button>
+                    <form action="/success/" class="contact__form" data-netlify="true" onSubmit="submit">
+                        <input type="text" placeholder="Name" class="contact__input" name="Name">
+                        <input type="mail" placeholder="Email" class="contact__input" name="Email">
+                        <textarea class="contact__input" rows="7" cools="1" placeholder="Massage" name="Massage"></textarea>
+                        <button value="submit" class="contact__button button">Submit</button>
                     </form>
                 </div>
             </section>
@@ -150,6 +149,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
