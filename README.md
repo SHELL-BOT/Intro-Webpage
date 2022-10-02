@@ -1,6 +1,4 @@
 # Uday's Website
 My first website repository
-this file need to be edited to add:-
-
-1] c++ skill bar at place of UI <br />
-2] find and edit logo for C++ skill bar
+This repository have source code and assets which are used in my 
+https://udayshirbhate.netlify.app
