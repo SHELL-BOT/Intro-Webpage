@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/Css/styles.css">
+        <link rel="stylesheet" href="styles.css">
 
         <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Portfolio Website</title>
     </head>
@@ -50,7 +50,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/Img/about.jpg" alt="">
+                        <img src="about.jpg" alt="">
                     </div>
                     
                     <div>
@@ -70,7 +70,7 @@
                         <p class="skills__text">The pleasure of work is open to anyone who can develop some specialised skill, provided that he can get satisfaction from the exercise of his skill without demanding universal applause.<br />-Bertrand Russell</p>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
+                                <i class='bx bxl-html5 skills__icons'></i>
                                 <span class="skills__name">HTML5</span>
                             </div>
                             <div class="skills__bar skills__html">
@@ -82,7 +82,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
+                                <i class='bx bxl-css3 skills__icons'></i>
                                 <span class="skills__name">CSS3</span>
                             </div>
                             <div class="skills__bar skills__css">
@@ -92,34 +92,23 @@
                                 <span class="skills__percentage">25%</span>
                             </div>
                         </div>
+       
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
+                                <i class='bx bxl-c-plus-plus skills__icons'></i>
+                                <span class="skills__name">C++</span>
                             </div>
-                            <div class="skills__bar skills__js">
+                            <div class="skills__bar skills__cpp">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">0%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">0%</span>
+                                <span class="skills__percentage">40%</span>
                             </div>
                         </div>
                     </div>
                     
                     <div>              
-                        <img src="assets/Img/work3.jpg" alt="" class="skills__img">
+                        <img src="work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
@@ -129,7 +118,7 @@
                 <h2 class="section-title">Contact</h2>
                 <p class="contact__text">Lemme know who visited my website <br>and send your thoughts about this webpage</p>
                 <div class="contact__container bd-grid">
-                    <form class="contact__form" data-netlify="true" onSubmit="submit"> 
+                    <form action="/success/" class="contact__form" data-netlify="true" onSubmit="submit">
                         <input type="text" placeholder="Name" class="contact__input" name="Name">
                         <input type="mail" placeholder="Email" class="contact__input" name="Email">
                         <textarea class="contact__input" rows="7" cools="1" placeholder="Massage" name="Massage"></textarea>
@@ -149,6 +138,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/Js/main.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
