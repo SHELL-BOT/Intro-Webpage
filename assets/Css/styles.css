@@ -278,7 +278,7 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
-.skills__icon {
+.skills__icons {
   font-size: 2rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
@@ -307,12 +307,8 @@ img {
   width: 25%;
 }
 
-.skills__js {
-  width: 0%;
-}
-
-.skills__ux {
-  width: 0%;
+.skills__cpp {
+  width: 40%;
 }
 
 .skills__img {
