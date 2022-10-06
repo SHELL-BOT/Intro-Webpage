@@ -207,7 +207,7 @@ img {
 }
 
 .home__title-color {
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(90deg, #0000ff, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
