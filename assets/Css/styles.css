@@ -363,19 +363,19 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
-  color: #fff
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
 
 .source__code {
-  color: var(--first-color)
+  color: var(--first-color);
   font-size: 1rem;
   margin-bottom: var(--mb-4);
 }
 
 .footer__copy {
+  color: #fff;
   font-size: var(--smaller-font-size);
   padding: 20px;
 }
