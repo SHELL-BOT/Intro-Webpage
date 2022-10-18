@@ -368,7 +368,7 @@ img {
   padding: 2rem 0;
 }
 
-. source__code {
+.source__code {
   color: var(--first-color)
   font-size: 1rem;
   margin-bottom: var(--mb-4);
