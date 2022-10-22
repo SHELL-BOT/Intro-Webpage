@@ -45,6 +45,7 @@ html {
 }
 
 body {
+  background: linear-gradient(90deg, hsl(300, 76%, 60%), hsl(57, 81%, 60%));
   height: 100%;
   margin: 0;
   margin: var(--header-height) 0 0 0;
