@@ -1,6 +1,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
     <style>
     	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
@@ -15,22 +16,24 @@
           color: black;
           font-family: 'Poppins', sans-serif;
           font-weight: 900;
-          font-size: 2.25rem;
+          font-size: 2rem;
           margin-bottom: 10px;
         }
         p {
           color: #404F5E;
           font-family: 'Poppins', sans-serif;
-          font-size: 1.25rem;
+          font-size: 1rem;
           margin-bottom: 1.24rem;
         }
       i {
         color: #80FF00;
         font-size: 100px;
-        line-height: 190px;
+        line-height: 160px;
         margin-left:-15px;
+        
       }
       .card {
+        height: 400px;
         place-items: center;
         background: white;
         padding: 60px;
@@ -60,12 +63,14 @@
     </style>
     <body background="Img/bg.jpg">
       <div class="card">
-      <div style="border-radius:200px; height:200px; width:200px; background: #5900FF; margin:0 auto;">
-        <i class="checkmark">✓</i>
+      <div style="border-radius:200px; height:170px; width:170px; background: #5900FF; margin:0 auto;">
+        <i class="checkmark">&#10003;</i>
       </div>
         <h1>Success</h1> 
-        <p>We received your purchase request; we'll be in touch shortly!</p>
-        <button>back</button>
+        <p>Thank you! your information have been recieved successfully</p>
+        <form action="https://udayshirbhate.netlify.app" onSubmit="submit">
+        <button value="submit">back</button>
+        </form>
       </div>
     </body>
 </html>
