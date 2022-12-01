@@ -11,7 +11,7 @@
   --first-color: hsl(var(--hue-color), 95%, 48%);
   --second-color: hsl(224, 56%, 12%);
   --sig-blue: hsl(225, 100%, 50%);
-  /*===== Fuente y tipografia =====*/
+  /*===== Fonts =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
